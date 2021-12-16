@@ -3,7 +3,9 @@
 This repo contains two machine learning algorithms.
 1. Polynomial regression
 2. Fining the best model and hyper-parameter for face recognition.
+
 Explanation about second algorithm(finalterm_project):
+
 Let me explain my "finalterm_project". My "final_project" contains the process of coding a classification model for classifying olivetti faces using Python's sklearn. The higher the similarity, the better the classification model, right? So, what I did was select the classification model with the highest similarity, and adjust the hyper-parameters to increase the similarity.
 I will explain the training dataset I used for this project. I used Olivetti faces as the dataset. This dataset contains a set of face images taken between April 1992 and April 1994 at AT&T Laboratories Cambridge. The image is quantized to 256 gray levels and stored as unsigned 8-bit integers; the loader will convert these to floating point values ​​on the interval [0, 1]. The original dataset consisted of 92 x 112, while the version available here consists of 64x64 images.
 To classify this olivetti face, I chose a classification model using the 'Support Vector Machine' (SVM) technique. SVM is a model for classifying which group the given data belongs to. The biggest feature of SVM is that it maximizes its generalization ability by utilizing 'margin'. The margin refers to the distance between the classification line used to classify the data and the closest data. And these close data are called 'support vectors'. The best classification line position is the position where the margin can be maximized as the distance from the support vectors is the longest, and it is gradually updated as we train the model.
